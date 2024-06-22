@@ -1,0 +1,9 @@
+# These are the requirements for all sensors
+# env_sensors, water_sensors and air_sensors
+# all Dockerfiles will use this requierements.txt
+# to install dependencies
+aiocoap[all]
+slixmpp==1.8.5
+paho-mqtt==2.0.0
+psycopg2==2.9.9
+docker==7.0.0
