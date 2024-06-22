@@ -48,6 +48,7 @@ If you want to run other tests, you can modify the devices by modifying this on 
 You can modify the protocols and the array of sensors that can be attached. the names of the sensors are in each file water_sensors.py, env_sensors.py, and air_sensors.py which are the files that generate the data and uses the transmission function to send it to the server.
 
 ## What each file of the project does:
+```
 MainFolder (./)
 │   app.py -----------------------> This file starts the GUI. 
 |                                   Shows the main window (the GUI is still 
@@ -181,3 +182,4 @@ MainFolder (./)
     │
     └───xmpp_Test ----------> Work in progress to use XMPP as a client and be able to transmit using this protocol.
             client_xmpp.py
+```
