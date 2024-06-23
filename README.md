@@ -1,6 +1,10 @@
 # CNTProject
 IoT Project to study CoAP, MQTT, and XMPP protocols - Unfinished
 
+The idea is to develop an emulation of an IoT network composed by devices deployed as Docker instances and a central server receiving all communications using CoAP, MQTT, or XMPP protocols.
+The global architecture would look like this:
+![architecture](https://github.com/Snigf12/CNTProject/blob/main/Architecture.png)
+
 ## The project was supposed to do the following:
 A graphic user interface created using PyQT where the user should be able to add IoT devices with specific sensors, start or stop the emulation of the devices and the central server, and start transmitting data using one of the three protocols selected (CoAP, MQTT, or XMPP). The central server should start listening to these protocols and store the data in a PostgreSQL database.
 
